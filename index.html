@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+	<link rel="icon" href="devchallenges.png" />
+
+	<link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="./style.css">
+
+	<title>Edie - Home Page</title>
+</head>
+<body>
+
+	<div class="mobile__nav">
+		<div class="mobile_nav_header">
+			<div class="mobile__nav__close__btn" onclick="mobileMenu()">
+				<span class="bi bi-x"></span>
+			</div>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#home-section" onclick="mobileMenu()">Home</a></li>
+				<li><a href="#service-section" onclick="mobileMenu()">Services</a></li>
+				<li><a href="#work-section" onclick="mobileMenu()">Our Works</a></li>
+				<li><a href="#client-section" onclick="mobileMenu()">Clients</a></li>
+				<li><a href="#footer" onclick="mobileMenu()">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<header>
+		<div class="header-logo">
+			<h4>Edie</h4>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#home-section">Home</a></li>
+				<li><a href="#service-section">Services</a></li>
+				<li><a href="#work-section">Our Works</a></li>
+				<li><a href="#client-section">Clients</a></li>
+				<li><a href="#footer">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="mobile__nav__open__btn" onclick="mobileMenu()">
+			<span class="bi bi-list"></span>
+		</div>
+	</header>
+
+	<main>
+		<section class="home-section" id="home-section">
+			<div class="h-s-inner__1">
+				<h6><span>Unhappy with your website?</span></h6>
+				<h1>We create beautiful <br> and fast web services</h1>
+			</div>
+			<div class="h-s-inner__2">
+				<img src="./heroImage.jpg" alt="hero-image">
+			</div>
+			<div class="h-s-inner__3">
+				<h1>Story, emotion <br> and purpose</h1>
+				<p>We help transform you ideas into real world applications that will outperform your toughest copetition and help you achieve your strategic goals in short period of time.</p>
+				<div class="inner-join">
+					<span>Want us to contact you?</span>
+					<form action="">
+						<input type="email" placeholder="Email" required>
+						<button type="submit">Join</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="service-section" id="service-section">
+			<h1>We offer high <br> demand services</h1>
+			<div class="inner-group">
+				<div class="card">
+					<div class="card-image"><span class="bi bi-pencil"></span></div>
+					<div class="card-title"><h3>UI/UX Design</h3></div>
+					<div class="card-content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, eligendi culpa? Sit ducimus iste magni dolorem similique, non commodi voluptatibus eveniet aspernatur qui culpa id beatae voluptas explicabo dignissimos nulla!</p></div>
+					<div class="card-button">
+						<button>Get started</button>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-image"><span class="bi bi-code"></span></div>
+					<div class="card-title"><h3>Front End</h3></div>
+					<div class="card-content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, eligendi culpa? Sit ducimus iste magni dolorem similique, non commodi voluptatibus eveniet aspernatur qui culpa id beatae voluptas explicabo dignissimos nulla!</p></div>
+					<div class="card-button">
+						<button>Get started</button>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-image"><span class="bi bi-hdd-stack"></span></div>
+					<div class="card-title"><h3>Back End</h3></div>
+					<div class="card-content"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, eligendi culpa? Sit ducimus iste magni dolorem similique, non commodi voluptatibus eveniet aspernatur qui culpa id beatae voluptas explicabo dignissimos nulla!</p></div>
+					<div class="card-button">
+						<button>Get started</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="work-section" id="work-section">
+			<h1>Good design means <br> good business</h1>
+			<div class="inner-group">
+				<figure>
+					<img src="./smarthome.jpg" alt="smart-home">
+					<figcaption>Full stack application</figcaption>
+					<h3>Smart home dashboard</h3>
+				</figure>
+				<figure>
+					<img src="./onboard.png" alt="smart-home">
+					<figcaption>UX/UI design</figcaption>
+					<h3>Onboard application</h3>
+				</figure>
+				<figure>
+					<img src="./booking.png" alt="smart-home">
+					<figcaption>Mobile application</figcaption>
+					<h3>Booking system</h3>
+				</figure>
+				<figure>
+					<img src="./juice-product.png" alt="smart-home">
+					<figcaption>Front End application</figcaption>
+					<h3>Juice product homepage</h3>
+				</figure>
+			</div>
+			<div class="inner-button">
+				<a href="#!">see more <span class="bi bi-arrow-right-short"></span></a>
+			</div>
+		</section>
+		<section class="client-section" id="client-section">
+			<div class="inner__1">
+				<div class="inner-group__1">
+					<span>Meet the team</span>
+					<h1>We are chilled <br> and a laidback <br> team</h1>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, eos iusto. Consectetur dolor inventore deserunt ullam tenetur perspiciatis quia qui velit fuga nobis aliquid nisi, unde, eos voluptate ipsam repudiandae!</p>
+				</div>
+
+				<div class="inner-group__2">
+					<div class="group__1">
+						<img src="./person3.png" alt="">
+					</div>
+					<div class="group__2">
+						<img src="./person1.png" alt="">
+						<img src="./person2.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="inner__2">
+				<h1>"Fast and outstanding results. Edie understands their customer's needs. They have a young and talented team".</h1>
+				<div class="inner-group">
+					<div class="inner-image">
+						<img src="./person4.png" alt="">
+					</div>
+					<div class="inner-details">
+						<h4>Carlos Tran</h4>
+						<p>The Decorate Gatsby</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer id="footer">
+		<div class="footer-header">
+			<div class="footer-nav">
+				<ul>
+					<li><a href="#home-section">Home</a></li>
+					<li><a href="#service-section">Services</a></li>
+					<li><a href="#work-section">Our Works</a></li>
+					<li><a href="#client-section">Clients</a></li>
+					<li><a href="#footer">Contact</a></li>
+				</ul>
+			</div>
+			<div class="footer-social">
+				<div class="footer-logo">
+					<h4>Edie</h4>
+				</div>
+				<ul>
+					<li><a href=""><img src="./instagram.svg" alt=""></a></li>
+					<li><a href=""><img src="./linkedin.svg" alt=""></a></li>
+					<li><a href=""><img src="./twitter.svg" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="footer-join">
+				<span>Want us to contact you?</span>
+				<form action="">
+					<input type="email" placeholder="Email" required>
+					<button type="submit">Join</button>
+				</form>
+			</div>
+		</div>
+		<div class="footer-body">
+			<p>Created by - <a href="https://vetri-suriya.web.app/"><span>Vetri Suriya</span></a></p>
+		</div>
+	</footer>
+
+	<script>
+		var nav__el = document.querySelector(".mobile__nav");
+
+		function mobileMenu() {
+			if(nav__el.classList.contains("is_visible")) {
+				nav__el.classList.remove("is_visible");
+			}
+			else {
+				nav__el.classList.add("is_visible");
+			}
+		}
+
+	</script>
+
+</body>
+</html>
